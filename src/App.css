@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+/*we have to use this class so many times*/
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.particles {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  /*to show something underneath, we use z-index*/
+  z-index: -1;
+}
